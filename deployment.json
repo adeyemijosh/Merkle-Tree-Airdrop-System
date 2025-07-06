@@ -1,0 +1,9 @@
+{
+  "contractAddress": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+  "merkleRoot": "0xc399a1d76c5001e5d3b377cb5e9684043db253f9f981b20f79674691539b2aca",
+  "tokenAddress": "0x3eDF60dd017aCe33A0220F78741b5581C385A1BA",
+  "claimDeadline": 1754428187,
+  "totalClaims": 10,
+  "deployedAt": "2025-07-06T21:09:48.476Z",
+  "network": "hardhat"
+}
