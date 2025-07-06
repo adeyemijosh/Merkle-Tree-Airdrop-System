@@ -48,7 +48,7 @@ func main() {
 
 	fmt.Printf(" Loaded %d claims\n", len(claims))
 
-	// Step 2: Build Merkle tree
+	// Step 2: Building Merkle tree
 	fmt.Printf(" Building Merkle tree...\n")
 	start := time.Now()
 
@@ -157,7 +157,7 @@ func verifyProof(proof *merkle.MerkleProof, claim merkle.AirdropClaim, rootHash 
 	// Verify proof path
 	currentHash := leafHash
 	for _, proofHash := range proof.Proof {
-		// Remove "0x" prefix and decode hex
+		// Removes "0x" prefix and decode hex
 		proofBytes, err := hex.DecodeString(proofHash[2:])
 		if err != nil {
 			fmt.Printf("Error decoding proof hash %s: %v\n", proofHash, err)
